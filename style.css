@@ -1,0 +1,125 @@
+a{
+    text-decoration: none;
+    color: white;
+
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: #f1f3f2;
+    color: #111;
+}
+
+.top-nav {
+    background: linear-gradient(to bottom, #1e1e1e, #141414);
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 14px 28px;
+    font-size: 14px;
+}
+
+.top-nav .menu span {
+    margin-right: 18px;
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.top-nav .menu span:hover {
+    opacity: 1;
+    text-decoration: underline;
+}
+
+.icons {
+    font-size: 18px;
+}
+
+/* BRAND */
+.brand {
+    background: #0a8f3c;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.brand h1 {
+    color: white;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+/* CONTENT */
+.content {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 30px;
+    padding: 40px 60px;
+}
+
+/* MAIN ARTICLE */
+.main-article .image-placeholder {
+    background: linear-gradient(135deg, #7a8fa3, #4e5d6c);
+    height: 320px;
+    margin-bottom: 20px;
+}
+
+.main-article h2 {
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+
+.main-article p {
+    color: #555;
+    font-size: 14px;
+}
+
+/* SIDEBAR */
+.sidebar {
+    background: #0a8f3c;
+    color: white;
+    padding: 24px;
+}
+
+.sidebar h3 {
+    margin-bottom: 18px;
+    font-size: 20px;
+}
+
+.sidebar ul li {
+    margin-bottom: 14px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.sidebar ul li:hover {
+    text-decoration: underline;
+}
+.header_container {
+    display: flex;
+    background: #000000;
+    padding: 15px 30px;
+    display: flexbox;
+    justify-content: space-between;
+    align-items: center;
+    white-space: calc(10px);
+
+}
+.main-article img{
+    width: 1000px;
+    height: 500px;
+}
+
+body {
+    background: 
+        linear-gradient(rgba(255,255,255,0.5), rgba(34, 28, 28, 0.5)),
+        url('https://img.freepik.com/fotos-gratis/trabalhador-de-servico-de-carro-muscular-reparando-o-veiculo_146671-19605.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
